@@ -1,0 +1,324 @@
+body {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rationale', sans-serif;
+}
+
+#page-home .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    max-width: 2100px;
+}
+
+.chatiologo{
+    color: #6f6c6c2a;
+
+    font-size: 200px;
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 190px;
+}
+
+.createiologo {
+    color: #6f6c6c2a;
+
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 390px;
+}
+
+.serverSidebar {
+    padding-right: 5px;
+    width: 440px;
+    height: 300px;
+}
+
+.scroller {
+    padding: 12px 0 0;
+    background-color: #807b7b;
+    width: 90px;
+    height: 100vh;
+}
+
+.servers {
+    display: flex;
+    display: grid;
+    align-items: center;
+}
+
+.online {
+  background-color: #60ff66;
+  border: 0;
+
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 50%;
+
+  align-items: center;
+  display: grid;
+  margin-right: 20px;
+  margin-left: 14px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.listItem {
+    background-color: #423a3a;
+    border: 0;
+
+    width: 4rem;
+    height: 4rem;
+
+    border-radius: 50%;
+
+    align-items: center;
+    display: grid;
+    margin-right: 20px;
+    margin-left: 14px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.channel {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-left: 90px;
+   margin-top: 0px;
+   padding: 12px 0 0;
+   background-color: #989393;
+   width: 300px;
+   height: 100vh;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.searchBarbutton {
+   font-family: 'Rationale', sans-serif;
+   font-size: 25px;
+   background-color: #3c3a3a;
+   border-radius: 4px;
+   color: white;
+   border: 0;
+}
+
+.friendsScroller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.friendsContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    width: 300px;
+}
+
+.logoFriends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 350px;
+    height: 100px;
+}
+
+.friendsLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    font-size: 80px;
+}
+
+.userFriends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 63px;
+    width: 230px;
+    height: 50px;
+
+    background-color: #746f6f;
+    border-radius: 8px;
+}
+
+.userLayout {
+    display: flex;
+    width: 350px;
+    height: 50px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.username {
+    display: flex;
+}
+
+.name {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.onlineUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.onlineButton {
+    background-color: #60ff66;
+    border: 0;
+  
+    width: 1rem;
+    height: 1rem;
+  
+    border-radius: 50%;
+  
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 300px;
+    height: 79px;
+
+    background-color: #686060;
+    position: static;
+}
+
+.profileUser {
+    display: flex;
+    width: 350px;
+    height: 50px;
+}
+
+.profileLayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+  
+.profileButton {
+    background-color: #3e3939;
+    border: 0;
+    
+    width: 2rem;
+    height: 2rem;
+    
+    border-radius: 50%;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.settings {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-left: 390px;
+   margin-top: 0px;
+   background-color: #8d8989;
+   width: 976px;
+   height: 80px;
+}
+
+.chatSettings {
+    display: flex;
+    align-items: center;
+    width: 976px;
+    height: 80px;
+}
+
+.chatBar {
+    display: flex;
+    align-items: center;
+    width: 976px;
+    height: 80px;
+}
+
+.settingName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingUsername {
+    display: flex;
+}
+
+.nameSetting {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSetting {
+    margin-left: 130px;
+    font-size: 70px;
+}
+
+.settingLayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+  
+.settingButton {
+    background-color: #3e3939;
+    border: 0;
+
+    margin-left: 30px;
+    
+    width: 3rem;
+    height: 3rem;
+    
+    border-radius: 50%;
+    
+    align-items: center;
+    justify-content: center;
+}
